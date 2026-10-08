@@ -45,6 +45,8 @@ ruff check gff tests tools
 
 ## Status: EXPERIMENTAL (R1)
 
+> **Evidence freshness notice (2026-10-09):** the `33 pytest tests` count below is a repository-declared test inventory, not a statement that the current default-branch SHA passed those tests. The latest-commit query during the documentation refresh returned no PR-triggered workflow runs for the inspected SHA; this does not prove that no CI exists. Use the current Actions run/job/step/log evidence before claiming test verification.
+
 - Kanonische Specs: **unverändert** aus dem Archiv übernommen (Copyright-Header original)
 - Referenz-Implementierung: Core/DAO/Lifecycle mit Tests — **implementiert, nicht auditiert**
 - Offen: GCL-Bus-Integration, ATC-VM-Bindung (AD-20-Specs nutzen `Chain::timestamp()`), Store-/Publishing-Anbindung
